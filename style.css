@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif, 'poppins';
+}
+body{
+    background-color: #60ec44;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: #76ee5e;
+}
+.logo img{
+    width: 80px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li a{
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 140vh;
+    height: 70vh;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+.img img{
+    width: 80vh;
+}
+
+.text h1{
+    margin-bottom: 5px;
+    color: #092c02;
+}
+
+.text h3{
+    margin-bottom: 10px;
+    color: #22830f;
+}
+
+.text p{
+    font-size: 18px;
+    color: #031101;
+}
+
+.text a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    width: 50vh;
+    border-radius: 20px;
+    background-color: #33961f;
+    color: #fff;
+    font-size: 20px;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 80vh;
+    height: 60vh;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+.cadastro h2{
+    color: #03000f;
+    margin: 5px;
+    font-size: 30px;   
+}
+h2::after {
+    content: '';
+    display: block;
+    width: 4rem;
+    height: 0.3rem;
+    background-color: #166105;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 18px;
+    margin: 4px;
+    color: #000405;
+}
+
+.input{
+    border: 2px solid #000405;
+    padding: 10px;
+    width: 40vh;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.input::placeholder{
+    color: #03000f;
+    font-size: 14px;
+}
+
+.cadastrar{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #22830f;
+    color: #fcfdff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.cadastrar:hover{
+    background-color: #166105;
+}
+
+.Cad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form a{
+    font-size: 18px;
+    color: #0e3f03;
+}
+
+.form a:hover{
+    color: #279e0f;
+}
